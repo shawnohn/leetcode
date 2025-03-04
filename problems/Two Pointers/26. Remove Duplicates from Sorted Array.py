@@ -46,4 +46,4 @@ class Solution:
 
 # Solution
 # O(n) time and O(1) space. Two pointers for reading and writing.
-# While iterating the array, use writing pointer to memo and override the value in the sorted array
+# While iterating the sorted array to track a new element, use writing pointer to memo and override the last seen value.
