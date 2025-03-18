@@ -1,0 +1,6 @@
+if __name__ == "__main__":
+    solution = Solution()
+
+    # Test cases
+    print("Test case 1:", solution.generate(5))
+    print("Test case 2:", solution.generate(1))
